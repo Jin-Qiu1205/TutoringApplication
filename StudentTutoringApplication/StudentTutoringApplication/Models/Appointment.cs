@@ -9,20 +9,8 @@ namespace StudentTutoringApplication.Models
         public int AppointmentId { get; set; }
 
         // FK's
-        [Required]
-        public int TutorId { get; set; }
-        [Required]
-        public int StudentId { get; set; }
-        [Required]
-        public int ScheduleId { get; set; }
 
         //Navigation properties:
-        [ForeignKey("TutorId")]
-        public Tutor Tutor { get; set; }
-        [ForeignKey("StudentId")]
-        public Student Student { get; set; }
-        [ForeignKey("ScheduleId")]
-        public Schedule Schedule { get; set; }
 
         public Appointment() { }
         /*
