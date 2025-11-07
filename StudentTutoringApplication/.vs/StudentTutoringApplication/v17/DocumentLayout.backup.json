@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\",
+  "WorkspaceRootPath": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\james\\documents\\github\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,6 +30,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\james\\documents\\github\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -41,7 +58,37 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2d7728c2-de0a-45b5-99aa-89b609dfde73}"
+            },
+            {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tutor.cs",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Tutor.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Tutor.cs",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Tutor.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Models\\Tutor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T17:52:50.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\ErrorViewModel.cs",
@@ -64,10 +111,22 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAAiwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T23:24:04.329Z",
+=======
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Student.cs",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Student.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T17:51:39.48Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Appointment.cs",
@@ -75,12 +134,22 @@
               "ToolTip": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Appointment.cs",
               "RelativeToolTip": "StudentTutoringApplication\\Models\\Appointment.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAgwBcAAAAiAAAAAAAAAA==",
+=======
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Program.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Program.cs",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Program.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T23:12:50.479Z",
+              "WhenOpened": "2025-11-07T17:50:56.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
               "Title": "Tutor.cs",
               "DocumentMoniker": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Tutor.cs",
@@ -90,9 +159,31 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T23:05:28.692Z",
+=======
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\appsettings.json",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\appsettings.json",
+              "RelativeToolTip": "StudentTutoringApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-07T17:50:49.333Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 114,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+<<<<<<< Updated upstream
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Student.cs",
@@ -130,6 +221,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T22:23:29.029Z",
               "EditorCaption": ""
+=======
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+>>>>>>> Stashed changes
             }
           ]
         }

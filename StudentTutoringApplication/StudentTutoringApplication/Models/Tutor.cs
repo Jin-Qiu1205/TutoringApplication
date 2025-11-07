@@ -12,6 +12,8 @@ namespace StudentTutoringApplication.Models
         [Required]
         [EmailAddress]
         public string Email { get; set; } = string.Empty;
+        [Required]
+        public string Password { get; set; } = string.Empty;
 
         // FK's
 
@@ -19,10 +21,11 @@ namespace StudentTutoringApplication.Models
         // Navigation Properties
 
         public Tutor() { }
-        public Tutor(string name, string email)
+        public Tutor(string name, string email, string password)
         {
             this.Name = name;
             this.Email = email;
+            this.Password = password;
         }
     }
 }

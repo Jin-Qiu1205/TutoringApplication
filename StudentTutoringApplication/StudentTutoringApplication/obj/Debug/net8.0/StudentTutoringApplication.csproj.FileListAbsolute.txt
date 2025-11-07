@@ -1,0 +1,312 @@
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\appsettings.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.staticwebassets.runtime.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.staticwebassets.endpoints.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.exe
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.deps.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.runtimeconfig.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.pdb
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Humanizer.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.csproj.AssemblyReference.cache
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.AssemblyInfoInputs.cache
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.AssemblyInfo.cs
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.RazorAssemblyInfo.cache
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.RazorAssemblyInfo.cs
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.sourcelink.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\scopedcss\bundle\StudentTutoringApplication.styles.css
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\scopedcss\projectbundle\StudentTutoringApplication.bundle.scp.css
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentT.E8D441B2.Up2Date
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\refint\StudentTutoringApplication.dll
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.pdb
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.genruntimeconfig.cache
+C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\ref\StudentTutoringApplication.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\appsettings.Development.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\appsettings.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.staticwebassets.runtime.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.staticwebassets.endpoints.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.exe
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.deps.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.runtimeconfig.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\StudentTutoringApplication.pdb
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Azure.Core.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Azure.Identity.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Humanizer.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.ClientModel.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.CodeDom.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Memory.Data.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.csproj.AssemblyReference.cache
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.AssemblyInfoInputs.cache
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.AssemblyInfo.cs
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.csproj.CoreCompileInputs.cache
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.MvcApplicationPartsAssemblyInfo.cs
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.MvcApplicationPartsAssemblyInfo.cache
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.RazorAssemblyInfo.cache
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.RazorAssemblyInfo.cs
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.sourcelink.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\scopedcss\bundle\StudentTutoringApplication.styles.css
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\scopedcss\projectbundle\StudentTutoringApplication.bundle.scp.css
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\staticwebassets.build.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\staticwebassets.development.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentT.E8D441B2.Up2Date
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\refint\StudentTutoringApplication.dll
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.pdb
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.genruntimeconfig.cache
+D:\School\SchoolCode\Fall2025\Server-Side Web\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\ref\StudentTutoringApplication.dll
