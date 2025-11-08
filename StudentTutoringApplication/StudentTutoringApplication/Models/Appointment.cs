@@ -7,6 +7,12 @@ namespace StudentTutoringApplication.Models
     {
         [Key]
         public int AppointmentId { get; set; }
+        public int TutorId { get; set; }
+        public int StudentId { get; set; }
+        public DateTime AppointmentDate { get; set; }
+        public string Subject { get; set; } = string.Empty;
+        public string Status { get; set; } = "Scheduled"; // e.g., Scheduled, Completed, Canceled
+        public string StatusMessage { get; set; }
 
         // FK's
 

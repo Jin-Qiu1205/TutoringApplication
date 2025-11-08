@@ -36,7 +36,7 @@ namespace StudentTutoringApplication.Areas.Student.Controllers
                 return NotFound();
             }
 
-            return View(tutor);
+            return View();
         }
     }
 }
