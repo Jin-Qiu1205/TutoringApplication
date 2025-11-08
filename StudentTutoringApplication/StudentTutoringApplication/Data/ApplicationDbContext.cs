@@ -12,5 +12,6 @@ namespace StudentTutoringApplication.Data
         }
         public DbSet<StudentTutoringApplication.Models.Tutor> Tutor { get; set; } = default!;
         public DbSet<StudentTutoringApplication.Models.Appointment> Appointment { get; set; } = default!;
+        public DbSet<StudentTutoringApplication.Models.Student> Student { get; set; } = default!;
     }
 }

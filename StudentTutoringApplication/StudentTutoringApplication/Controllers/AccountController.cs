@@ -51,64 +51,6 @@ namespace StudentTutoringApplication.Controllers
             TempData["Error"] = "Invalid login attempt.";
             return View(model);
         }
-
-        // Role Index page Get method
-        [HttpGet]
-        public async Task<IActionResult> Index(LoginViewModel model)
-        {
-            if (!ModelState.IsValid)
-                return View(model);
-
-            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
-
-            if (result.Succeeded)
-            {
-                var user = await _userManager.FindByEmailAsync(model.Email);
-                var roles = await _userManager.GetRolesAsync(user);
-
-                if (roles.Contains("Admin"))
-                    return RedirectToAction("Index", "Home", new { area = "Admin" });
-
-                if (roles.Contains("Tutor"))
-                    return RedirectToAction("Index", "Home", new { area = "Tutor" });
-
-                if (roles.Contains("Student")){
-
-                    var tutor = from i in _context.Tutor select i;
-                    //var newModel = await _context.Tutor.ToListAsync(); // Placeholder unless there isnt a better way to do it
-                    return View(await PaginatedList<Tutor>.CreateAsync(tutor.AsNoTracking(), 1, 10));
-                }
-
-                // fallback redirect if user has no role
-                return RedirectToAction("Index", "Home");
-            }
-
-            TempData["Error"] = "Invalid login attempt.";
-            return View(model);
-        }
-
-        // GET: BookAppointment
-        [HttpGet]
-        public async Task<IActionResult> BookAppointment(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var tutor = await _context.Tutor
-                .Where(x => x.TutorId == id)
-                .SingleOrDefaultAsync();
-
-            if (tutor == null)
-            {
-                return NotFound();
-            }
-
-
-            return View(tutor);
-        }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
