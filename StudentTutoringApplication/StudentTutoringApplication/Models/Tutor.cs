@@ -15,6 +15,9 @@ namespace StudentTutoringApplication.Models
         [Required]
         public string Password { get; set; } = string.Empty;
 
+        public string Availability {  get; set; } = string.Empty; // PLACEHOLDER
+        public string[] Subjects { get; set; } // PLACEHOLDER
+
         // FK's
 
 

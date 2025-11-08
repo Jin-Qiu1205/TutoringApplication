@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityUser>
+﻿@model IEnumerable<StudentTutoringApplication.Models.Tutor>
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -7,8 +7,24 @@
 <h2>Student Dashboard</h2>
 <p>Good luck in your coding! -ryan</p>
 
-<div class="tenor-gif-embed" data-postid="13505824" data-share-method="host" data-aspect-ratio="1" data-width="50%">
-    <a href="https://tenor.com/view/puppy-dog-eyes-despicable-me-please-sad-beg-gif-13505824">Puppy Dog Eyes Despicable Me GIF</a>from 
-    <a href="https://tenor.com/search/puppy+dog+eyes-gifs">Puppy Dog Eyes GIFs</a>
-</div> 
-<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Subjects</th>
+            <th>Availability</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Name</td>
+                <td>@user.Subjects</td>
+                <td>@user.Availability</td>
+                <a asp-action="BookAppointment" asp-route-id="@user.TutorId">Details</a>
+            </tr>
+        }
+    </tbody>
+</table>
