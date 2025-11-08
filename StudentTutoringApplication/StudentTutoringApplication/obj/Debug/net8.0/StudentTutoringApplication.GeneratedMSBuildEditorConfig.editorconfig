@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentTutoringApplication
 build_property.RootNamespace = StudentTutoringApplication
@@ -54,6 +62,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/weege/Documents/PROG1342A-TutoringApplication/StudentTutoringApplication/StudentTutoringApplication/Areas/Student/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/weege/Documents/PROG1342A-TutoringApplication/StudentTutoringApplication/StudentTutoringApplication/Areas/Tutor/Views/Home/CreateTutorDebug.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHV0b3JcVmlld3NcSG9tZVxDcmVhdGVUdXRvckRlYnVnLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/weege/Documents/PROG1342A-TutoringApplication/StudentTutoringApplication/StudentTutoringApplication/Areas/Tutor/Views/Home/Index.cshtml]

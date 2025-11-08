@@ -1,11 +1,16 @@
 ﻿@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityUser>
-
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Tutor Dashboard</h2>
 <p>Good luck in your coding! -ryan</p>
+
+<a asp-area="Tutor" asp-controller="Home" asp-action="CreateTutorDebug" >
+    Create
+</a>
+
 <div class="tenor-gif-embed" data-postid="13505824" data-share-method="host" data-aspect-ratio="1" data-width="50%">
     <a href="https://tenor.com/view/puppy-dog-eyes-despicable-me-please-sad-beg-gif-13505824">Puppy Dog Eyes Despicable Me GIF</a>from
     <a href="https://tenor.com/search/puppy+dog+eyes-gifs">Puppy Dog Eyes GIFs</a>
