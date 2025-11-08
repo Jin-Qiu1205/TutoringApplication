@@ -64,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/weege/Documents/PROG1342A-TutoringApplication/StudentTutoringApplication/StudentTutoringApplication/Areas/Tutor/Views/Home/CreateTutorDebug.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHV0b3JcVmlld3NcSG9tZVxDcmVhdGVUdXRvckRlYnVnLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/weege/Documents/PROG1342A-TutoringApplication/StudentTutoringApplication/StudentTutoringApplication/Areas/Tutor/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHV0b3JcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

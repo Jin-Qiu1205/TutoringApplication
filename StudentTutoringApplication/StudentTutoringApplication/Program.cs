@@ -120,6 +120,8 @@ static async Task SeedRolesAndUsersAsync(IServiceProvider services)
         }
     }
 
+
+
     Console.WriteLine("🎉 Role and user seeding complete!");
 }
 

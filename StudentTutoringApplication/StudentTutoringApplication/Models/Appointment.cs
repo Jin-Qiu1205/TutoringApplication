@@ -7,22 +7,16 @@ namespace StudentTutoringApplication.Models
     {
         [Key]
         public int AppointmentId { get; set; }
+        public int TutorId { get; set; }
+        public int StudentId { get; set; }
+        public DateTime AppointmentDate { get; set; }
+        public string Subject { get; set; } = string.Empty;
+        public string Status { get; set; } = "Scheduled"; // e.g., Scheduled, Completed, Canceled
+        public string StatusMessage { get; set; }
 
         // FK's
-        [Required]
-        public int TutorId { get; set; }
-        [Required]
-        public int StudentId { get; set; }
-        [Required]
-        public int ScheduleId { get; set; }
 
         //Navigation properties:
-        [ForeignKey("TutorId")]
-        public Tutor Tutor { get; set; }
-        [ForeignKey("StudentId")]
-        public Student Student { get; set; }
-        [ForeignKey("ScheduleId")]
-        public Schedule Schedule { get; set; }
 
         public Appointment() { }
         /*

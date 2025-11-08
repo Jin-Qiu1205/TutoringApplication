@@ -16,13 +16,10 @@ namespace StudentTutoringApplication.Models
         public bool Available { get; set; } = false;
 
         // FK's
-        [Required]
-        public int TutorId { get; set; }
+        
 
         // Navigation Properties
-        [Required]
-        [ForeignKey("TutorId")]
-        public Tutor Tutor { get; set; }
+
 
         public Schedule() { }
         public Schedule(DateOnly availabilityDay, TimeOnly availabilityTime, bool available)

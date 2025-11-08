@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<StudentTutoringApplication.Models.Tutor>
-
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -13,7 +13,7 @@
             <th>Name</th>
             <th>Subjects</th>
             <th>Availability</th>
-            <th></th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
@@ -21,9 +21,9 @@
         {
             <tr>
                 <td>@user.Name</td>
-                <td>@user.Subjects</td>
+                <td>@user.Subjects.ToString()</td>
                 <td>@user.Availability</td>
-                <a asp-action="BookAppointment" asp-route-id="@user.TutorId">Details</a>
+                <td><a asp-action="BookAppointment" asp-route-id="@user.TutorId">Book</a></td>
             </tr>
         }
     </tbody>
