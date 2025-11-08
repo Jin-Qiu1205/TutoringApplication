@@ -3,49 +3,40 @@
   "WorkspaceRootPath": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\james\\documents\\github\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\james\\documents\\github\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\tutor\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\tutor\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\james\\documents\\github\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\james\\documents\\github\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\james\\documents\\github\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\james\\documents\\github\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\james\\documents\\github\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\tutor\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\tutor\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
->>>>>>> Stashed changes
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|d:\\school\\schoolcode\\fall2025\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -75,101 +66,119 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T00:17:37.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Tutor.cs",
-              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Tutor.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Tutor.cs",
-              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Tutor.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Models\\Tutor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T17:52:50.714Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Student\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Student\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T00:17:28.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 3,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T23:31:36.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Schedule.cs",
-              "DocumentMoniker": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Schedule.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Schedule.cs",
-              "ToolTip": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Schedule.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Models\\Schedule.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T23:24:04.329Z",
-=======
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Student.cs",
-              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Student.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T17:51:39.48Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 5,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Appointment.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Appointment.cs",
-              "ToolTip": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Appointment.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Models\\Appointment.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBcAAAAiAAAAAAAAAA==",
-=======
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Program.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Program.cs",
-              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Program.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T17:50:56.637Z",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "StudentTutoringApplication\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T00:09:17.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 1,
-              "Title": "Tutor.cs",
-              "DocumentMoniker": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Tutor.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Tutor.cs",
-              "ToolTip": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Tutor.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Models\\Tutor.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T23:05:28.692Z",
-=======
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\appsettings.json",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\appsettings.json",
-              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\appsettings.json",
-              "RelativeToolTip": "StudentTutoringApplication\\appsettings.json",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-07T17:50:49.333Z",
->>>>>>> Stashed changes
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T00:08:50.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T00:07:14.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T00:05:52.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Student\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Student\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T00:05:43.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T00:05:24.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\School\\SchoolCode\\Fall2025\\Server-Side Web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwDYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T20:14:48.224Z",
               "EditorCaption": ""
             }
           ]
@@ -183,45 +192,6 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-<<<<<<< Updated upstream
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Student.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T23:04:09.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Admin.cs",
-              "ToolTip": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Admin.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Models\\Admin.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T23:01:13.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "00000000000000_CreateIdentitySchema.cs",
-              "DocumentMoniker": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ToolTip": "C:\\Users\\James\\Documents\\GitHub\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAQwIoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T22:23:29.029Z",
-              "EditorCaption": ""
-=======
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
@@ -232,7 +202,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
->>>>>>> Stashed changes
             }
           ]
         }

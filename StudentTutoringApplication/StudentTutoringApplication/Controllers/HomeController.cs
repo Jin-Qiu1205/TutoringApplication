@@ -15,8 +15,16 @@ namespace StudentTutoringApplication.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            if (User.IsInRole("Admin"))
+                return RedirectToAction("Index", "Home", new { area = "Admin" });
+            if (User.IsInRole("Tutor"))
+                return RedirectToAction("Index", "Home", new { area = "Tutor" });
+            if (User.IsInRole("Student"))
+                return RedirectToAction("Index", "Home", new { area = "Student" });
+
+            return View(); // fallback
         }
+
 
         public IActionResult Privacy()
         {
@@ -28,5 +36,7 @@ namespace StudentTutoringApplication.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
     }
 }

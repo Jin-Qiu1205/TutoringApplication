@@ -10,12 +10,14 @@ namespace StudentTutoringApplication.Data.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            /* Removing for testing purposes - issues with migration due to existing column
             migrationBuilder.AddColumn<string>(
                 name: "Password",
                 table: "Tutors",
                 type: "nvarchar(max)",
                 nullable: false,
                 defaultValue: "");
+            
 
             migrationBuilder.AddColumn<string>(
                 name: "Password",
@@ -23,6 +25,8 @@ namespace StudentTutoringApplication.Data.Migrations
                 type: "nvarchar(max)",
                 nullable: false,
                 defaultValue: "");
+
+            */
         }
 
         /// <inheritdoc />
