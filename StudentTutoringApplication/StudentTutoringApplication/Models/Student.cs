@@ -11,12 +11,15 @@ namespace StudentTutoringApplication.Models
         [Required]
         [EmailAddress]
         public string Email { get; set; } = string.Empty;
+        [Required]
+        public string Password { get; set; } = string.Empty;
 
         public Student() { }
-        public Student(string name, string email)
+        public Student(string name, string email, string password)
         {
             this.Name = name;
             this.Email = email;
+            this.Password = password;
         }
     }
 }
