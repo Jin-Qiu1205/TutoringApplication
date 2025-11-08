@@ -74,8 +74,7 @@
               "RelativeToolTip": "StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T00:17:37.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T00:17:37.557Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "StudentTutoringApplication\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T00:09:17.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T00:09:17.585Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T00:08:50.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T00:08:50.149Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "StudentTutoringApplication\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T00:07:14.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T00:07:14.291Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T00:05:52.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T00:05:52.201Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "StudentTutoringApplication\\Areas\\Student\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T00:05:43.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T00:05:43.734Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "StudentTutoringApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T00:05:24.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T00:05:24.633Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "StudentTutoringApplication\\Controllers\\AccountController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAUwDYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T20:14:48.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T20:14:48.224Z"
             }
           ]
         },
