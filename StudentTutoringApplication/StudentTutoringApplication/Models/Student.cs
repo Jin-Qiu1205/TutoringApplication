@@ -1,25 +1,27 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace StudentTutoringApplication.Models
+namespace StudentTutoringApplication.Models;
+
+public partial class Student
 {
-    public class Student
-    {
-        [Key]
-        public int StudentId { get; set; }
-        [Required]
-        public string Name { get; set; } = string.Empty;
-        [Required]
-        [EmailAddress]
-        public string Email { get; set; } = string.Empty;
-        [Required]
-        public string Password { get; set; } = string.Empty;
+    public int StudentId { get; set; }
 
-        public Student() { }
-        public Student(string name, string email, string password)
-        {
-            this.Name = name;
-            this.Email = email;
-            this.Password = password;
-        }
-    }
+    public string UserId { get; set; } = null!;
+
+    public string CourseId { get; set; } = null!;
+
+    public string? Grade { get; set; }
+
+    public string? Gpa { get; set; }
+
+    public string? ResidencyStatus { get; set; }
+
+    public string SubjectId { get; set; } = null!;
+
+    public virtual ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
+
+    public virtual Course Course { get; set; } = null!;
+
+    public virtual AspNetUser User { get; set; } = null!;
 }
