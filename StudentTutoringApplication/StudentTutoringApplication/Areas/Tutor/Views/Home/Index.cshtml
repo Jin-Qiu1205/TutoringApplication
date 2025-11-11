@@ -1,0 +1,93 @@
+﻿@model StudentTutoringApplication.Models.Tutor
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Update Tutor Availability</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-area="Tutor"
+              asp-controller="Home"
+              asp-action="Index"
+              method="post">
+            @Html.AntiForgeryToken()
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <table class="table table-borderless">
+                <tr>
+                    <td style="width: 30%;">
+                        <label asp-for="FirstName" class="control-label">First Name</label>
+                    </td>
+                    <td>
+                        <input asp-for="FirstName" class="form-control" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label asp-for="LastName" class="control-label">Last Name</label>
+                    </td>
+                    <td>
+                        <input asp-for="LastName" class="form-control" />
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label asp-for="Subject" class="control-label">Subject</label>
+                    </td>
+                    <td>
+                        <select asp-for="Subject" class="form-select"
+                                asp-items="@(ViewBag.SubjectList as IEnumerable<SelectListItem>)">
+                            <option value="">-- Select Subject --</option>
+                        </select>
+                        <span asp-validation-for="Subject" class="text-danger"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label asp-for="AvailableDate" class="control-label">Available Date</label>
+                    </td>
+                    <td>
+                        <input asp-for="AvailableDate" type="date" class="form-control" />
+                        <span asp-validation-for="AvailableDate" class="text-danger"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label asp-for="AvailableTime" class="control-label">Available Time</label>
+                    </td>
+                    <td>
+                        <select asp-for="AvailableTime" class="form-select"
+                                asp-items="@(ViewBag.TimeSlots as IEnumerable<SelectListItem>)">
+                            <option value="">-- Select Time --</option>
+                        </select>
+                        <span asp-validation-for="AvailableTime" class="text-danger"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Update" class="btn btn-primary" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
