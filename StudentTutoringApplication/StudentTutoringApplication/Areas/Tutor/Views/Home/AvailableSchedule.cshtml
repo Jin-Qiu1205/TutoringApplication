@@ -1,5 +1,6 @@
 ﻿@model StudentTutoringApplication.Models.Tutor
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -21,21 +22,13 @@
     </tr>
     <tr>
         <th>Available Date</th>
-        <td>@Model.AvailableDate.ToString("yyyy-MM-dd")</td>
+        <td>@(Model.AvailableDate?.ToString("yyyy-MM-dd") ?? "")</td>
     </tr>
     <tr>
         <th>Available Time</th>
         <td>@Model.AvailableTime</td>
     </tr>
 </table>
-
-<form asp-area="Tutor" >
-      
-
-    <button type="submit" class="btn btn-success">
-        Add to Database
-    </button>
-</form> 
 
 <a asp-area="Tutor"
    asp-controller="Home"

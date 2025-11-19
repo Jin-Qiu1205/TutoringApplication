@@ -9,7 +9,7 @@ public partial class Schedule
 
     public DateOnly AvailabilityDay { get; set; }
 
-    public TimeOnly? AvailabilityTime { get; set; }
+    public String? AvailabilityTime { get; set; }
 
     public string? Available { get; set; }
 

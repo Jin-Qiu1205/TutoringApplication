@@ -243,11 +243,11 @@ public partial class TutoringContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Tutor_Schedule");
 
-            entity.HasOne(d => d.Subject).WithMany(p => p.Tutors)
-                .HasForeignKey(d => d.SubjectId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Tutor_Subjects");
-
+            entity.HasOne(d => d.SubjectNavigation).WithMany(p => p.Tutors)
+                  .HasForeignKey(d => d.SubjectId)
+                  .OnDelete(DeleteBehavior.ClientSetNull)
+                  .HasConstraintName("FK_Tutor_Subjects");
+           
             entity.HasOne(d => d.User).WithMany(p => p.Tutors)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
