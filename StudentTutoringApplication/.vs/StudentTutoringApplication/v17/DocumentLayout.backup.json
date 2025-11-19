@@ -3,34 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\student\\views\\home\\bookappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\student\\views\\home\\bookappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\tutor\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\tutor\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\tutor\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\tutor\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,32 +11,68 @@
       "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\tutor\\views\\home\\availableschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\aspnetusertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\aspnetusertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\tutor\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\tutor\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\aspnetuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\aspnetuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\tutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\tutoringcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\tutoringcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\aspnetusertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\aspnetusertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\student\\views\\home\\bookappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\student\\views\\home\\bookappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\aspnetuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\aspnetuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -81,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\areas\\student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|solutionrelative:studenttutoringapplication\\areas\\student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B518FDE-4567-4A8E-81B5-42F6AAB46F85}|StudentTutoringApplication\\StudentTutoringApplication.csproj|c:\\users\\gabby\\onedrive\\desktop\\2025 fall\\server-side web\\prog1342a-tutoringapplication\\studenttutoringapplication\\studenttutoringapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -142,32 +146,188 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StudentTutoringApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T18:44:32.539Z"
+              "WhenOpened": "2025-11-17T18:43:46.411Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "TutoringContext.cs",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\TutoringContext.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\TutoringContext.cs",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\TutoringContext.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Models\\TutoringContext.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAAwAUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T02:07:07.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Tutor.cs",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Tutor.cs",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Tutor.cs",
               "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Tutor.cs",
               "RelativeToolTip": "StudentTutoringApplication\\Models\\Tutor.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T18:43:12.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T18:44:32.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AvailableSchedule.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\AvailableSchedule.cshtml",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\AvailableSchedule.cshtml",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\AvailableSchedule.cshtml",
+              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\AvailableSchedule.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T18:44:49.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:07:53.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\appsettings.Development.json",
+              "RelativeToolTip": "StudentTutoringApplication\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T16:57:41.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "StudentTutoringApplication\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-18T02:15:30.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Program.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Program.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T20:12:49.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AspNetUserToken.cs",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\AspNetUserToken.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\AspNetUserToken.cs",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\AspNetUserToken.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Models\\AspNetUserToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:41:59.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T20:45:20.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookAppointment.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Views\\Home\\BookAppointment.cshtml",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Student\\Views\\Home\\BookAppointment.cshtml",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Views\\Home\\BookAppointment.cshtml",
+              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Student\\Views\\Home\\BookAppointment.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T20:23:03.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Student\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Student\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T21:07:48.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AspNetUserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\AspNetUserLogin.cs",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\AspNetUserLogin.cs",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\AspNetUserLogin.cs",
+              "RelativeToolTip": "StudentTutoringApplication\\Models\\AspNetUserLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:37:05.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Views\\Home\\Index.cshtml",
@@ -179,128 +339,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Program.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Program.cs",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Program.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Program.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAwEsAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T20:12:49.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Student\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Student\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T21:07:48.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentTutoringApplication\\appsettings.json",
+              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\appsettings.json",
+              "RelativeToolTip": "StudentTutoringApplication\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T20:45:20.189Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T16:57:40.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookAppointment.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Views\\Home\\BookAppointment.cshtml",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Student\\Views\\Home\\BookAppointment.cshtml",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Views\\Home\\BookAppointment.cshtml",
-              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Student\\Views\\Home\\BookAppointment.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T20:23:03.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Tutor\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwE8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T20:27:30.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AvailableSchedule.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\AvailableSchedule.cshtml",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\AvailableSchedule.cshtml",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\AvailableSchedule.cshtml",
-              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Tutor\\Views\\Home\\AvailableSchedule.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T18:44:49.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "StudentTutoringApplication\\ScaffoldingReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-11-18T02:15:30.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AspNetUserToken.cs",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\AspNetUserToken.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\AspNetUserToken.cs",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\AspNetUserToken.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Models\\AspNetUserToken.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T02:41:59.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AspNetUserLogin.cs",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\AspNetUserLogin.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\AspNetUserLogin.cs",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\AspNetUserLogin.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Models\\AspNetUserLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T02:37:05.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TutoringContext.cs",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\TutoringContext.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\TutoringContext.cs",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\TutoringContext.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Models\\TutoringContext.cs",
-              "ViewState": "AgIAAOMAAAAAAAAAAAAAAPgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T02:07:07.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Schedule.cs",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Schedule.cs",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Schedule.cs",
@@ -312,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\ErrorViewModel.cs",
@@ -324,19 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "StudentTutoringApplication\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T18:43:46.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Course.cs",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Course.cs",
@@ -348,19 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "StudentTutoringApplication\\Areas\\Student\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Areas\\Student\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "StudentTutoringApplication\\Areas\\Student\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAABAwBoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T21:23:07.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Views\\Account\\Login.cshtml",
@@ -372,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Views\\Shared\\_LoginPartial.cshtml",
@@ -384,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\Admin.cs",
@@ -396,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Controllers\\HomeController.cs",
@@ -408,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Controllers\\AccountController.cs",
@@ -420,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "20251108214639_AddedStudentControllerStuff.cs",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Data\\Migrations\\20251108214639_AddedStudentControllerStuff.cs",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Data\\Migrations\\20251108214639_AddedStudentControllerStuff.cs",
@@ -432,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Models\\LoginViewModel.cs",
@@ -444,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\gabby\\OneDrive\\Desktop\\2025 fall\\Server-side web\\PROG1342A-TutoringApplication\\StudentTutoringApplication\\StudentTutoringApplication\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "StudentTutoringApplication\\Views\\Home\\Privacy.cshtml",

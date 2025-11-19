@@ -5,35 +5,54 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Your Available Schedule</h1>
+<h1>My Available Schedule</h1>
 
-<table class="table table-striped">
-    <tr>
-        <th>First Name</th>
-        <td>@Model.FirstName</td>
-    </tr>
-    <tr>
-        <th>Last Name</th>
-        <td>@Model.LastName</td>
-    </tr>
-    <tr>
-        <th>Subject</th>
-        <td>@Model.Subject</td>
-    </tr>
-    <tr>
-        <th>Available Date</th>
-        <td>@(Model.AvailableDate?.ToString("yyyy-MM-dd") ?? "")</td>
-    </tr>
-    <tr>
-        <th>Available Time</th>
-        <td>@Model.AvailableTime</td>
-    </tr>
-</table>
+<!-- Use the form to send the data back to the server; clicking the button actually saves it. -->
+<form asp-area="Tutor"
+      asp-controller="Home"
+      asp-action="ConfirmAvailability"
+      method="post">
 
-<a asp-area="Tutor"
-   asp-controller="Home"
-   asp-action="Index"
-   class="btn btn-secondary">
-    Back &amp; Edit
-</a>
+    @Html.AntiForgeryToken()
 
+    <table class="table table-striped">
+        <tr>
+            <th>First Name</th>
+            <td>@Model.FirstName</td>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <td>@Model.LastName</td>
+        </tr>
+        <tr>
+            <th>Subject</th>
+            <td>@Model.Subject</td>
+        </tr>
+        <tr>
+            <th>Available Date</th>
+            <td>@(Model.AvailableDate?.ToString("yyyy-MM-dd") ?? "")</td>
+        </tr>
+        <tr>
+            <th>Available Time</th>
+            <td>@Model.AvailableTime</td>
+        </tr>
+    </table>
+
+    <!-- Use a hidden field to POST the data back together. -->
+    <input type="hidden" asp-for="FirstName" />
+    <input type="hidden" asp-for="LastName" />
+    <input type="hidden" asp-for="Subject" />
+    <input type="hidden" asp-for="AvailableDate" />
+    <input type="hidden" asp-for="AvailableTime" />
+
+    <button type="submit" class="btn btn-primary">
+        Confirm &amp; Save
+    </button>
+
+    <a asp-area="Tutor"
+       asp-controller="Home"
+       asp-action="Index"
+       class="btn btn-secondary ms-2">
+        Back &amp; Edit
+    </a>
+</form>

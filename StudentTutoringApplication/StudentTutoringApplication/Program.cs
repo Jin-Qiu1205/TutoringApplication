@@ -23,7 +23,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 
 var app = builder.Build();
 
-// 尝试种子数据，但不阻止应用启动
+// Attempt seeding data, but do not block the application from starting.
+
 try
 {
     using (var scope = app.Services.CreateScope())
@@ -34,7 +35,7 @@ try
 }
 catch (Exception ex)
 {
-    // 记录错误但不阻止应用启动
+    // Log the error but do not prevent the application from starting.
     Console.WriteLine($"⚠️ Error seeding database: {ex.Message}");
 }
 
@@ -137,5 +138,7 @@ static async Task SeedRolesAndUsersAsync(IServiceProvider services)
 
     Console.WriteLine("🎉 Role and user seeding complete!");
 }
+
+
 
 

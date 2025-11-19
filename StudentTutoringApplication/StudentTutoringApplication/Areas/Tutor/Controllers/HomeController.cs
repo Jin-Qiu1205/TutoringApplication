@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StudentTutoringApplication.Models;
 
-// "Give the Tutor model an alias to avoid conflicts with the Areas.Tutor namespace
+// Give the Tutor model an alias to avoid a conflict with the namespace Areas.Tutor.
 using TutorModel = StudentTutoringApplication.Models.Tutor;
 
 namespace StudentTutoringApplication.Areas.Tutor.Controllers
@@ -13,7 +13,7 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
     [Authorize(Roles = "Tutor")]
     public class HomeController : Controller
     {
-        //Use TutoringContext (located in the Models namespace)
+        // Use the TutoringContext we scaffolded (which is connected to the TutoringApplication database).
         private readonly TutoringContext _context;
         private readonly UserManager<IdentityUser> _userManager;
 
@@ -26,24 +26,28 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
         // GET: /Tutor/Home/Index
         public IActionResult Index()
         {
-
+            // Provide an empty Tutor model to the view for form binding.
             return View(new TutorModel());
         }
 
         // POST: /Tutor/Home/SubmitAvailability
+        // Step 1: Validate the data first. If successful, navigate to the AvailableSchedule confirmation page (do NOT save to the database yet).
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> SubmitAvailability(TutorModel tutor)
+        public IActionResult SubmitAvailability(TutorModel tutor)
         {
             if (tutor == null)
             {
                 return BadRequest("Tutor data is required.");
             }
 
-            // 让 DataAnnotations 先跑一遍（Required 等）
-            // 这里不用 ModelState.Clear() 了
-            // 只加额外的日期范围验证逻辑
+            // ① Run annotation-based validation (such as [Required], etc.).
+            if (!ModelState.IsValid)
+            {
+                return View("Index", tutor);
+            }
 
+            // ② Additional custom rule: The date must be after today and within the next 6 months.
             if (tutor.AvailableDate.HasValue)
             {
                 var today = DateTime.Today;
@@ -51,25 +55,48 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
 
                 if (tutor.AvailableDate.Value <= today)
                 {
-                    ModelState.AddModelError(nameof(TutorModel.AvailableDate),
+                    ModelState.AddModelError(
+                        nameof(TutorModel.AvailableDate),
                         "Available date must be after today.");
                 }
                 else if (tutor.AvailableDate.Value > sixMonthsLater)
                 {
-                    ModelState.AddModelError(nameof(TutorModel.AvailableDate),
+                    ModelState.AddModelError(
+                        nameof(TutorModel.AvailableDate),
                         "Available date must be within the next 6 months.");
                 }
             }
 
-            // 任何验证错误 → 回到同一页面，显示错误
+            // ③ If any errors exist, return to the form page and display error messages under the corresponding fields.
             if (!ModelState.IsValid)
             {
                 return View("Index", tutor);
             }
 
+            // ④ All validations passed — do not save yet. Redirect to the confirmation page.
+            return View("AvailableSchedule", tutor);
+        }
+
+        // POST: /Tutor/Home/ConfirmAvailability
+        // Step 2: When clicking "Confirm & Save" on the AvailableSchedule page, execute this method and store the data into the database.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ConfirmAvailability(TutorModel tutor)
+        {
+            if (tutor == null)
+            {
+                return BadRequest("Tutor data is required.");
+            }
+
+            // Perform a quick basic validation check again to avoid saving empty/invalid data.
+            if (!ModelState.IsValid)
+            {
+                return View("AvailableSchedule", tutor);
+            }
+
             try
             {
-                // 1. 当前登录用户
+                // 1. Get the currently logged-in user.
                 var currentUser = await _userManager.GetUserAsync(User);
                 if (currentUser == null)
                 {
@@ -77,12 +104,13 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
                 }
                 tutor.UserId = currentUser.Id;
 
-                // 2. SubjectId - 查找或创建 Subject
+                // 2. SubjectId: Find or create a Subject.
                 var subject = await _context.Subjects
                     .FirstOrDefaultAsync(s => s.SubjectName == tutor.Subject);
 
                 if (subject == null)
                 {
+                    // Find or create a default Course if needed.
                     var defaultCourse = await _context.Courses
                         .FirstOrDefaultAsync(c => c.CourseId == "DEFAULT");
 
@@ -101,7 +129,7 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
 
                     subject = new Subject
                     {
-                        SubjectId = tutor.Subject!,
+                        SubjectId = tutor.Subject!, // Use the subject name as ID
                         SubjectName = tutor.Subject,
                         SubjectCode = tutor.Subject!.Substring(0, Math.Min(3, tutor.Subject.Length)).ToUpper(),
                         CourseId = defaultCourse.CourseId
@@ -111,36 +139,32 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
                 }
                 tutor.SubjectId = subject.SubjectId;
 
-                // 3. 创建 Schedule
+                // 3. Create a Schedule entry.
                 var schedule = new Schedule
                 {
                     AvailabilityDay = DateOnly.FromDateTime(tutor.AvailableDate!.Value),
-                    AvailabilityTime = tutor.AvailableTime,   // 现在是 nvarchar(50)，可以直接存
+                    AvailabilityTime = tutor.AvailableTime,
                     Available = "Yes"
                 };
                 _context.Schedules.Add(schedule);
                 await _context.SaveChangesAsync();
                 tutor.ScheduleId = schedule.ScheduleId;
 
-                // 4. 保存 Tutor
+                // 4. Save the Tutor record.
                 await _context.Tutors.AddAsync(tutor);
                 await _context.SaveChangesAsync();
 
-                // 5. 确保 Subject 字符串有值
-                if (string.IsNullOrEmpty(tutor.Subject))
-                {
-                    tutor.Subject = subject.SubjectName;
-                }
-
-                // 6. 成功 → 跳到 AvailableSchedule 视图
+                // 5. Display the confirmation page again (this time data is already saved).
                 return View("AvailableSchedule", tutor);
+
+                // If preferred, you may redirect back to form upon success:
+                // return RedirectToAction("Index");
             }
             catch (Exception ex)
             {
-                // 调试期先看清错误
-                var msg = ex.InnerException?.Message ?? ex.Message;
-                ModelState.AddModelError("", $"Error when saving: {msg}");
-                return View("Index", tutor);
+                // Display a user-friendly message and keep the entered data.
+                ModelState.AddModelError("", $"Error when saving: {ex.Message}");
+                return View("AvailableSchedule", tutor);
             }
         }
     }

@@ -13,7 +13,7 @@
       method="post">
     @Html.AntiForgeryToken()
 
-    <!-- ✅ 整体错误区域（比如日期超 6 个月） -->
+    <!-- Error area for general validation (for example, if the date exceeds 6 months) -->
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
     <table class="table">
@@ -21,7 +21,7 @@
             <th>First Name</th>
             <td>
                 <input asp-for="FirstName" class="form-control" />
-                <!-- ✅ 单个字段错误 -->
+                <!-- Single field error -->
                 <span asp-validation-for="FirstName" class="text-danger"></span>
             </td>
         </tr>
@@ -84,7 +84,7 @@
     </table>
 </form>
 
-<!-- ✅ 必须有这段，客户端验证脚本才会工作 -->
+<!-- This section is required for the client-side validation script to work -->
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }

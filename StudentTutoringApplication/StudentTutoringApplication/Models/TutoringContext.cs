@@ -247,7 +247,7 @@ public partial class TutoringContext : DbContext
                   .HasForeignKey(d => d.SubjectId)
                   .OnDelete(DeleteBehavior.ClientSetNull)
                   .HasConstraintName("FK_Tutor_Subjects");
-           
+
             entity.HasOne(d => d.User).WithMany(p => p.Tutors)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
@@ -259,3 +259,4 @@ public partial class TutoringContext : DbContext
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }
+
