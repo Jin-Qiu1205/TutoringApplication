@@ -20,9 +20,9 @@
         @foreach (var user in Model)
         {
             <tr>
-                <td>@user.Name</td>
-                <td>@user.Subjects.ToString()</td>
-                <td>@user.Availability</td>
+                <td>@user.FirstName @user.LastName</td>
+                <td>@user.SubjectId</td>
+                <td> <b>@(@user.AvailableDate?.ToString("yyyy-MM-dd") ?? "")</b> <br> <i>@user.AvailableTime</i> </td>
                 <td><a asp-action="BookAppointment" asp-route-id="@user.TutorId">Book</a></td>
             </tr>
         }

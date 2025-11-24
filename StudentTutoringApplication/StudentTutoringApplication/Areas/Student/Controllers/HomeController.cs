@@ -24,6 +24,8 @@ namespace StudentTutoringApplication.Areas.Student.Controllers
         [HttpGet]
         public async Task<IActionResult> BookAppointment(int? id)
         {
+            // need to add a bunch of stuff to viewbag
+
             if (id == null){
                 return NotFound();
             }
