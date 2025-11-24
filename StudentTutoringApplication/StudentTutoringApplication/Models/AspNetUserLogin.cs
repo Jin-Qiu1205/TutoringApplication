@@ -3,9 +3,13 @@ using System.Collections.Generic;
 
 namespace StudentTutoringApplication.Models;
 
-public partial class Admin
+public partial class AspNetUserLogin
 {
-    public string AdminId { get; set; } = null!;
+    public string LoginProvider { get; set; } = null!;
+
+    public string ProviderKey { get; set; } = null!;
+
+    public string? ProviderDisplayName { get; set; }
 
     public string UserId { get; set; } = null!;
 

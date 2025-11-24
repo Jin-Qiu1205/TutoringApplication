@@ -1,32 +1,19 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.Collections.Generic;
 
-namespace StudentTutoringApplication.Models
+namespace StudentTutoringApplication.Models;
+
+public partial class Schedule
 {
-    public class Schedule
-    {
-        [Key]
-        public int ScheduleId { get; set; }
-        // vvv Likely better as an enum in 15 or 30 minute blocks on during business days.
-        [Required]
-        public DateOnly AvailabilityDay { get; set; }
-        [Required]
-        public TimeOnly AvailabilityTime { get; set; }
-        [Required]
-        public bool Available { get; set; } = false;
+    public int ScheduleId { get; set; }
 
-        // FK's
-        
+    public DateOnly AvailabilityDay { get; set; }
 
-        // Navigation Properties
+    public TimeOnly? AvailabilityTime { get; set; }
 
+    public string? Available { get; set; }
 
-        public Schedule() { }
-        public Schedule(DateOnly availabilityDay, TimeOnly availabilityTime, bool available)
-        {
-            this.AvailabilityDay = availabilityDay;
-            this.AvailabilityTime = availabilityTime;
-            this.Available = available;
-        }
-    }
+    public virtual ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
+
+    public virtual ICollection<Tutor> Tutors { get; set; } = new List<Tutor>();
 }

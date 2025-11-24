@@ -10,8 +10,8 @@ namespace StudentTutoringApplication.Data
             : base(options)
         {
         }
-        public DbSet<StudentTutoringApplication.Models.Tutor> Tutor { get; set; } = default!;
-        public DbSet<StudentTutoringApplication.Models.Appointment> Appointment { get; set; } = default!;
-        public DbSet<StudentTutoringApplication.Models.Student> Student { get; set; } = default!;
+        public DbSet<Tutor> Tutor { get; set; } = default!;
+        public DbSet<Appointment> Appointment { get; set; } = default!;
+        public DbSet<Student> Student { get; set; } = default!;
     }
 }

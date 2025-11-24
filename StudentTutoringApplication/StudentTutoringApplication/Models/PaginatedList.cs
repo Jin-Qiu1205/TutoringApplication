@@ -1,7 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
-namespace StudentTutoringApplication
+namespace StudentTutoringApplication.Models
 {
+    // We can keep with the models, but use NotMapped so it doesn't get sent to the database.
+    [NotMapped]
     public class PaginatedList<T> : List<T>
     {
         public int PageIndex { get; private set; }
@@ -12,7 +15,7 @@ namespace StudentTutoringApplication
             PageIndex = pageIndex;
             TotalPages = (int)Math.Ceiling(count / (double)pageSize);
 
-            this.AddRange(items);
+            AddRange(items);
         }
 
         public bool HasPreviousPage => PageIndex > 1;
