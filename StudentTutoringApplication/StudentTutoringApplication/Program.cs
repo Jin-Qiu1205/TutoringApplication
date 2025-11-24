@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using StudentTutoringApplication.Data;
+using StudentTutoringApplication.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,9 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Register the scaffolded TutoringContext (it will use the connection string defined inside its own OnConfiguring method).
+builder.Services.AddDbContext<TutoringContext>();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
@@ -19,10 +23,20 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope())
+// Attempt seeding data, but do not block the application from starting.
+
+try
 {
-    var services = scope.ServiceProvider;
-    await SeedRolesAndUsersAsync(services);
+    using (var scope = app.Services.CreateScope())
+    {
+        var services = scope.ServiceProvider;
+        await SeedRolesAndUsersAsync(services);
+    }
+}
+catch (Exception ex)
+{
+    // Log the error but do not prevent the application from starting.
+    Console.WriteLine($"⚠️ Error seeding database: {ex.Message}");
 }
 
 if (!app.Environment.IsDevelopment())
@@ -124,5 +138,7 @@ static async Task SeedRolesAndUsersAsync(IServiceProvider services)
 
     Console.WriteLine("🎉 Role and user seeding complete!");
 }
+
+
 
 

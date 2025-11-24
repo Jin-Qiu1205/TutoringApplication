@@ -1,18 +1,90 @@
-﻿@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityUser>
+﻿@model StudentTutoringApplication.Models.Tutor
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Tutor Dashboard</h2>
-<p>Good luck in your coding! -ryan</p>
+<h2>Tutor Availability</h2>
 
-<a asp-area="Tutor" asp-controller="Home" asp-action="CreateTutorDebug" >
-    Create
-</a>
+<form asp-area="Tutor"
+      asp-controller="Home"
+      asp-action="SubmitAvailability"
+      method="post">
+    @Html.AntiForgeryToken()
 
-<div class="tenor-gif-embed" data-postid="13505824" data-share-method="host" data-aspect-ratio="1" data-width="50%">
-    <a href="https://tenor.com/view/puppy-dog-eyes-despicable-me-please-sad-beg-gif-13505824">Puppy Dog Eyes Despicable Me GIF</a>from
-    <a href="https://tenor.com/search/puppy+dog+eyes-gifs">Puppy Dog Eyes GIFs</a>
-</div>
-<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    <!-- Error area for general validation (for example, if the date exceeds 6 months) -->
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <table class="table">
+        <tr>
+            <th>First Name</th>
+            <td>
+                <input asp-for="FirstName" class="form-control" />
+                <!-- Single field error -->
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Last Name</th>
+            <td>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Subject</th>
+            <td>
+                <select asp-for="Subject" class="form-select">
+                    <option value="">-- Select Subject --</option>
+                    <option>PHP</option>
+                    <option>Server-Side Web:MVC Framework</option>
+                    <option>Enterprise Java</option>
+                    <option>Advanced JavaScript</option>
+                </select>
+                <span asp-validation-for="Subject" class="text-danger"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Available Date</th>
+            <td>
+                <input asp-for="AvailableDate"
+                       type="date"
+                       class="form-control" />
+                <span asp-validation-for="AvailableDate" class="text-danger"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Available Time</th>
+            <td>
+                <select asp-for="AvailableTime" class="form-select">
+                    <option value="">-- Select Time --</option>
+                    <option>8:00 AM - 10:00 AM</option>
+                    <option>10:00 AM - 12:00 PM</option>
+                    <option>12:00 PM - 2:00 PM</option>
+                    <option>2:00 PM - 4:00 PM</option>
+                    <option>4:00 PM - 6:00 PM</option>
+                    <option>6:00 PM - 8:00 PM</option>
+                </select>
+                <span asp-validation-for="AvailableTime" class="text-danger"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <button type="submit" class="btn btn-primary">
+                    Submit
+                </button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<!-- This section is required for the client-side validation script to work -->
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
