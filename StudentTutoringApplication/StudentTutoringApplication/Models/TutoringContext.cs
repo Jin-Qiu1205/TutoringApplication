@@ -171,6 +171,9 @@ public partial class TutoringContext : DbContext
 
         modelBuilder.Entity<Course>(entity =>
         {
+            // Allegedly this is needed for ID's. I think the DB might have metadata that the keys are required???
+            entity.Property(c => c.CourseId).ValueGeneratedOnAdd();
+
             entity.Property(e => e.Classroom).HasMaxLength(50);
             entity.Property(e => e.CourseCode).HasMaxLength(450);
             entity.Property(e => e.CourseLength).HasMaxLength(50);

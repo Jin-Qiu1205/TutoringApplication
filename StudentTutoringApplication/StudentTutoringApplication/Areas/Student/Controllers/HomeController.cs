@@ -13,12 +13,22 @@ namespace StudentTutoringApplication.Areas.Student.Controllers
         public HomeController(ApplicationDbContext context) {
         
             _context = context;
+            // _context.
         }
 
         public async Task<IActionResult> Index()
         {
+            // Only show the tutors based on the logged in users ID.
+            
             return View(await _context.Tutor.ToListAsync());
         }
+
+        /*
+        public async Task<IActionResult> Search()
+        {
+            
+        }
+        */
 
         // GET: BookAppointment
         [HttpGet]

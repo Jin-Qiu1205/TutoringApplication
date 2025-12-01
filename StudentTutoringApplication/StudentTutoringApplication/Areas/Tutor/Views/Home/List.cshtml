@@ -1,0 +1,73 @@
+﻿@model IEnumerable<StudentTutoringApplication.Models.Tutor>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Your Current Requests</h1>
+
+<p>
+    <a asp-area="Tutor" asp-controller="Home" asp-action="Index">Return to index</a><br />
+    See Pending | See Accepted
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AvailableDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AvailableTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Schedule)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubjectNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailableDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailableTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Schedule.ScheduleId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubjectNavigation.SubjectId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TutorId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TutorId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TutorId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
