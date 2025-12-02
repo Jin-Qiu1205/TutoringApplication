@@ -1287,3 +1287,4 @@ C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApp
 C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.pdb
 C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\StudentTutoringApplication.genruntimeconfig.cache
 C:\Users\James\Documents\GitHub\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\ref\StudentTutoringApplication.dll
+C:\Users\weege\Documents\PROG1342A-TutoringApplication\StudentTutoringApplication\StudentTutoringApplication\obj\Debug\net8.0\scopedcss\Areas\Shared\_Layout.cshtml.rz.scp.css

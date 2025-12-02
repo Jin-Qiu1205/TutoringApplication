@@ -1,7 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 using StudentTutoringApplication.Data;
+
+using AppointmentModel = StudentTutoringApplication.Models.Appointment;
 
 namespace StudentTutoringApplication.Areas.Student.Controllers
 {
@@ -10,9 +14,11 @@ namespace StudentTutoringApplication.Areas.Student.Controllers
     public class HomeController : Controller
     {
         private readonly ApplicationDbContext _context;
-        public HomeController(ApplicationDbContext context) {
+        private readonly UserManager<IdentityUser> _userManager;
+        public HomeController(ApplicationDbContext context, UserManager<IdentityUser> userManager) {
         
             _context = context;
+            _userManager = userManager;
             // _context.
         }
 
@@ -23,12 +29,21 @@ namespace StudentTutoringApplication.Areas.Student.Controllers
             return View(await _context.Tutor.ToListAsync());
         }
 
-        /*
-        public async Task<IActionResult> Search()
+        private async Task PopulateViewBag(AppointmentModel model)
         {
-            
+            var tutor = await _context.Tutor.FindAsync(model.TutorId);
+            var student = await _context.Student.FindAsync(model.StudentId);
+            var user = await _context.Users.FindAsync(student.UserId);
+
+            ViewBag.TutorId = tutor.TutorId;
+            ViewBag.StudentId = student.StudentId;
+            ViewBag.StudentName = user.UserName;
+            ViewBag.ScheduleId = model.ScheduleId;
+            ViewBag.SubjectId = model.SubjectId;
+            ViewBag.TutorName = tutor.FirstName + " " + tutor.LastName;
+            ViewBag.Date = tutor.AvailableDate;
+            ViewBag.Time = tutor.AvailableTime;
         }
-        */
 
         // GET: BookAppointment
         [HttpGet]
@@ -48,7 +63,66 @@ namespace StudentTutoringApplication.Areas.Student.Controllers
                 return NotFound();
             }
 
-            return View();
+            var user = await _userManager.GetUserAsync(User);
+
+            var student = await _context.Student
+                .Where(x => x.UserId == user.Id)
+                .SingleOrDefaultAsync();
+
+            ViewBag.Tutorid = tutor.TutorId;
+            ViewBag.StudentId = student.StudentId;
+            ViewBag.StudentName = user.UserName;
+            ViewBag.ScheduleId = tutor.ScheduleId;
+            ViewBag.SubjectId = tutor.SubjectId;
+            ViewBag.TutorName = tutor.FirstName + " " + tutor.LastName;
+
+            ViewBag.Date = tutor.AvailableDate;
+            ViewBag.Time = tutor.AvailableTime;
+
+            var appointment = new Models.Appointment
+            {
+                TutorId = tutor.TutorId,
+                StudentId = student.StudentId,
+                ScheduleId = tutor.ScheduleId,
+                SubjectId = tutor.SubjectId,
+                Status = null,
+                Rating = null
+            };
+
+            return View(appointment);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> BookAppointment(AppointmentModel model)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            var student = await _context.Student.SingleAsync(x => x.UserId == user.Id);
+
+            var tutor = await _context.Tutor.SingleAsync(x => x.TutorId == model.TutorId);
+
+            model.AppointmentId = 0; // ensure a new record is created
+            model.TutorId = tutor.TutorId; // force correct tutor
+            model.StudentId = student.StudentId; // force correct student
+            model.SubjectId = tutor.SubjectId;
+            model.ScheduleId = tutor.ScheduleId;
+
+            model.Status = null;
+            model.Rating = null;
+
+            if (!ModelState.IsValid)
+            {
+                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    Console.WriteLine(error.ErrorMessage);
+                }
+
+                throw new InvalidOperationException("The appointment data is invalid.");
+            }
+
+            _context.Appointment.Add(model);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Index");
         }
     }
 }

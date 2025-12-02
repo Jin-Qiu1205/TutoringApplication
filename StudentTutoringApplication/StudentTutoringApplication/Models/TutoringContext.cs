@@ -78,22 +78,24 @@ public partial class TutoringContext : DbContext
                 .HasMaxLength(255)
                 .IsUnicode(false);
 
-            entity.HasOne(d => d.Schedule).WithMany(p => p.Appointments)
-                .HasForeignKey(d => d.ScheduleId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Appointment_Schedule");
+            // Commented out because it caused errors in Student Appointment booking
 
-            entity.HasOne(d => d.Student).WithMany(p => p.Appointments).HasForeignKey(d => d.StudentId);
+            //entity.HasOne(d => d.Schedule).WithMany(p => p.Appointments)
+            //    .HasForeignKey(d => d.ScheduleId)
+            //    .OnDelete(DeleteBehavior.ClientSetNull)
+            //    .HasConstraintName("FK_Appointment_Schedule");
 
-            entity.HasOne(d => d.Subject).WithMany(p => p.Appointments)
-                .HasForeignKey(d => d.SubjectId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Appointment_Subjects");
+            //entity.HasOne(d => d.Student).WithMany(p => p.Appointments).HasForeignKey(d => d.StudentId);
 
-            entity.HasOne(d => d.Tutor).WithMany(p => p.Appointments)
-                .HasForeignKey(d => d.TutorId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Appointment_Tutor");
+            //entity.HasOne(d => d.Subject).WithMany(p => p.Appointments)
+            //    .HasForeignKey(d => d.SubjectId)
+            //    .OnDelete(DeleteBehavior.ClientSetNull)
+            //    .HasConstraintName("FK_Appointment_Subjects");
+
+            //entity.HasOne(d => d.Tutor).WithMany(p => p.Appointments)
+            //    .HasForeignKey(d => d.TutorId)
+            //    .OnDelete(DeleteBehavior.ClientSetNull)
+            //    .HasConstraintName("FK_Appointment_Tutor");
         });
 
         modelBuilder.Entity<AspNetRole>(entity =>
