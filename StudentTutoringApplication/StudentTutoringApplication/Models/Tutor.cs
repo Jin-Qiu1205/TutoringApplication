@@ -37,14 +37,14 @@ public partial class Tutor
 
     // ======== Extra fields added for compatibility with Student area views =========
 
-    [NotMapped]
-    public string? Name { get; set; }
+    //[NotMapped]
+    //public string? Name { get; set; }
 
-    [NotMapped]
-    public string? Subjects { get; set; }
+    //[NotMapped]
+    //public string? Subjects { get; set; }
 
-    [NotMapped]
-    public string? Availability { get; set; }
+    //[NotMapped]
+    //public string? Availability { get; set; }
 
     // =============== Navigation properties (database relationships) ================
 

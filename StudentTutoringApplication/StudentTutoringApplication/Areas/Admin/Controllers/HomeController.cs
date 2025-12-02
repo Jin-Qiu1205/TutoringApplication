@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
+using StudentTutoringApplication.Models;
+
 namespace StudentTutoringApplication.Areas.Admin.Controllers
 {
     [Area("Admin")]
@@ -20,5 +22,17 @@ namespace StudentTutoringApplication.Areas.Admin.Controllers
             var users = _userManager.Users.ToList();
             return View(users);
         }
+
+        /*
+        public async Task<IActionResult> CourseList()
+        {
+
+        }
+
+        public async Task<IActionResult> CreateCourse()
+        {
+
+        }
+        */
     }
 }

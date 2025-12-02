@@ -4,7 +4,44 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Admin Dashboard</h2>
+<h2>Admin Dashboard</h2><br/>
+<h5>Welcome! Please select an option from the following: </h5><br />
+<div class="row">
+    <div class="col">
+        <!-- <a asp-controller="Course" asp-action="Index">Courses</a> -->
+        <button class="btn dropdown-toggle" type="button" id="dropdownCourseButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Course
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownCourseButton">
+            <div class="dropdown-content">
+                <a class="dropdown-item" asp-controller="Course" asp-action="Index">Course list</a>
+                <a class="dropdown-item" asp-controller="Course" asp-action="Create">Create a course</a>
+                <a class="dropdown-item" asp-controller="Course" asp-action="Details">Course details</a>
+                <a class="dropdown-item" asp-controller="Course" asp-action="Edit">Edit a course</a>
+                <a class="dropdown-item" asp-controller="Course" asp-action="Delete">Delete a course</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <button class="btn dropdown-toggle" type="button" id="dropdownSubjectButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Subject
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownSubjectButton">
+            <div class="dropdown-content">
+                <a class="dropdown-item" asp-controller="Subject" asp-action="Index">Subject list</a>
+                <a class="dropdown-item" asp-controller="Subject" asp-action="Create">Create a subject</a>
+                <a class="dropdown-item" asp-controller="Subject" asp-action="Details">Subject details</a>
+                <a class="dropdown-item" asp-controller="Subject" asp-action="Edit">Edit a subject</a>
+                <a class="dropdown-item" asp-controller="Subject" asp-action="Delete">Delete a subject</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<hr />
 <p>Manage users in the system:</p>
 
 <table class="table">

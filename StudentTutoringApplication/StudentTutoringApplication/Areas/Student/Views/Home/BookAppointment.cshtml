@@ -2,33 +2,33 @@
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     ViewData["Title"] = "BookAppointment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-// None of this works right now 
-// oops this is the wrong kind of comment lol
 
-<h1>BookAppointment</h1>
+<h1>Book Appointment?</h1>
 
-<h4>Appointment</h4>
+<h4>Appointment Deatils:</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="BookAppointment">
+        <form asp-action="BookAppointment" asp-area="Student" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <p><b>Scheduling for @ViewBag.AvailableDate</b> - @ViewBag.AvailableTime</p>
+
+            <label > <b>TUTOR: @ViewBag.TutorId</b> - @ViewBag.TutorName </label>
+            <label > <b>STDUENT: @ViewBag.StudentId</b> - @ViewBag.StudentName </label>
+
+            <input type="hidden" asp-for="TutorId"/>
+            <input type="hidden" asp-for="StudentId"/>
+            <input type="hidden" asp-for="ScheduleId"/>
+            <input type="hidden" asp-for="SubjectId"/>
+            <input type="hidden" asp-for="Status"/>
+            <input type="hidden" asp-for="Rating"/>
+
             <div class="form-group">
-                <label asp-for="TutorId" class="control-label"></label>
-                <select asp-for="TutorId" class ="form-control" asp-items="ViewBag.TutorId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="StudentId" class="control-label"></label>
-                <select asp-for="StudentId" class ="form-control" asp-items="ViewBag.StudentId"></select>
-            </div>
-@*          <div class="form-group">
-                <label asp-for="ScheduleId" class="control-label"></label>
-                <select asp-for="ScheduleId" class ="form-control" asp-items="ViewBag.ScheduleId"></select>
-            </div> *@
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Confirm" class="btn btn-primary" />
             </div>
         </form>
     </div>

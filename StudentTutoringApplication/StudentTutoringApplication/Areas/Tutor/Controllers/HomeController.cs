@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -24,11 +25,29 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
         }
 
         // GET: /Tutor/Home/Index
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             // Provide an empty Tutor model to the view for form binding.
             return View(new TutorModel());
         }
+
+        public async Task<IActionResult> List()
+        {
+            var tutors = await _context.Tutors
+                .Where( i => i.Appointments.Any())
+                .Include(i => i.Appointments)
+                .AsNoTracking()
+                .ToListAsync();
+
+            return View(tutors);
+        }
+
+        /*
+        public async Task<IActionResult> List()
+        {
+            return View();
+        }
+        */
 
         // POST: /Tutor/Home/SubmitAvailability
         // Step 1: Validate the data first. If successful, navigate to the AvailableSchedule confirmation page (do NOT save to the database yet).

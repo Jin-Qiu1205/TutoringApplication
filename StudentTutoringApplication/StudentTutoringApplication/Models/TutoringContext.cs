@@ -78,22 +78,24 @@ public partial class TutoringContext : DbContext
                 .HasMaxLength(255)
                 .IsUnicode(false);
 
-            entity.HasOne(d => d.Schedule).WithMany(p => p.Appointments)
-                .HasForeignKey(d => d.ScheduleId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Appointment_Schedule");
+            // Commented out because it caused errors in Student Appointment booking
 
-            entity.HasOne(d => d.Student).WithMany(p => p.Appointments).HasForeignKey(d => d.StudentId);
+            //entity.HasOne(d => d.Schedule).WithMany(p => p.Appointments)
+            //    .HasForeignKey(d => d.ScheduleId)
+            //    .OnDelete(DeleteBehavior.ClientSetNull)
+            //    .HasConstraintName("FK_Appointment_Schedule");
 
-            entity.HasOne(d => d.Subject).WithMany(p => p.Appointments)
-                .HasForeignKey(d => d.SubjectId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Appointment_Subjects");
+            //entity.HasOne(d => d.Student).WithMany(p => p.Appointments).HasForeignKey(d => d.StudentId);
 
-            entity.HasOne(d => d.Tutor).WithMany(p => p.Appointments)
-                .HasForeignKey(d => d.TutorId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Appointment_Tutor");
+            //entity.HasOne(d => d.Subject).WithMany(p => p.Appointments)
+            //    .HasForeignKey(d => d.SubjectId)
+            //    .OnDelete(DeleteBehavior.ClientSetNull)
+            //    .HasConstraintName("FK_Appointment_Subjects");
+
+            //entity.HasOne(d => d.Tutor).WithMany(p => p.Appointments)
+            //    .HasForeignKey(d => d.TutorId)
+            //    .OnDelete(DeleteBehavior.ClientSetNull)
+            //    .HasConstraintName("FK_Appointment_Tutor");
         });
 
         modelBuilder.Entity<AspNetRole>(entity =>
@@ -171,6 +173,9 @@ public partial class TutoringContext : DbContext
 
         modelBuilder.Entity<Course>(entity =>
         {
+            // Allegedly this is needed for ID's. I think the DB might have metadata that the keys are required???
+            entity.Property(c => c.CourseId).ValueGeneratedOnAdd();
+
             entity.Property(e => e.Classroom).HasMaxLength(50);
             entity.Property(e => e.CourseCode).HasMaxLength(450);
             entity.Property(e => e.CourseLength).HasMaxLength(50);
