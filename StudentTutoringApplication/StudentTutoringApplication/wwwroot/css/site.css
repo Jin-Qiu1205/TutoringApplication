@@ -20,3 +20,10 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.logo {
+    font-size: 1.5rem;
+    color: #258cfb;
+    font-weight: bold;
+    height : 2rem;
+}
