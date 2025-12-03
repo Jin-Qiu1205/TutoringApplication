@@ -6,7 +6,10 @@
 }
 
 <h1>My Available Schedule</h1>
-
+@if (ViewBag.SuccessMessage != null)
+{
+    <div class="text-success">@ViewBag.SuccessMessage</div>
+}
 <!-- Use the form to send the data back to the server; clicking the button actually saves it. -->
 <form asp-area="Tutor"
       asp-controller="Home"
@@ -45,14 +48,14 @@
     <input type="hidden" asp-for="AvailableDate" />
     <input type="hidden" asp-for="AvailableTime" />
 
-    <button type="submit" class="btn btn-primary">
+    <button type="submit" class="btn btn btn-nbcc">
         Confirm &amp; Save
     </button>
 
     <a asp-area="Tutor"
        asp-controller="Home"
        asp-action="Index"
-       class="btn btn-secondary ms-2">
+       class="btn btn-nbcc ms-2">
         Back &amp; Edit
     </a>
 </form>

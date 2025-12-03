@@ -37,3 +37,14 @@ body {
     margin-left: 1.05em;
     height: 2rem;
 }
+.btn-nbcc {
+    background-color: #A1D8E0;
+    border-color: #0098d4;
+    color: #000;
+}
+
+.btn-nbcc:hover {
+     background-color: #007cab; 
+     border-color: #007cab;
+     color: #000;
+}

@@ -1,4 +1,3 @@
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -25,48 +24,44 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
         }
 
         // GET: /Tutor/Home/Index
-        public async Task<IActionResult> Index()
+        // Show the availability form.
+        public IActionResult Index()
         {
-            // Provide an empty Tutor model to the view for form binding.
+       
             return View(new TutorModel());
         }
 
+        // GET: /Tutor/Home/List
+     
         public async Task<IActionResult> List()
         {
             var tutors = await _context.Tutors
-                .Where( i => i.Appointments.Any())
-                .Include(i => i.Appointments)
+                .Where(t => t.Appointments.Any())
+                .Include(t => t.Appointments)
                 .AsNoTracking()
                 .ToListAsync();
 
             return View(tutors);
         }
 
-        /*
-        public async Task<IActionResult> List()
-        {
-            return View();
-        }
-        */
-
-        // POST: /Tutor/Home/SubmitAvailability
-        // Step 1: Validate the data first. If successful, navigate to the AvailableSchedule confirmation page (do NOT save to the database yet).
+     
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult SubmitAvailability(TutorModel tutor)
+        public async Task<IActionResult> SubmitAvailability(TutorModel tutor)
         {
             if (tutor == null)
             {
                 return BadRequest("Tutor data is required.");
             }
 
-            // ① Run annotation-based validation (such as [Required], etc.).
+           
             if (!ModelState.IsValid)
             {
+               
                 return View("Index", tutor);
             }
 
-            // ② Additional custom rule: The date must be after today and within the next 6 months.
+            // 2) Additional custom rule: The date must be after today and within the next 6 months.
             if (tutor.AvailableDate.HasValue)
             {
                 var today = DateTime.Today;
@@ -86,18 +81,43 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
                 }
             }
 
-            // ③ If any errors exist, return to the form page and display error messages under the corresponding fields.
+            // 2.5) Custom validation: same tutor, same date, same time is not allowed.
+
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+            {
+                return Unauthorized();
+            }
+            tutor.UserId = currentUser.Id;
+
+            if (tutor.AvailableDate.HasValue && !string.IsNullOrWhiteSpace(tutor.AvailableTime))
+            {
+                bool timeSlotExists = await _context.Tutors.AnyAsync(t =>
+                    t.UserId == tutor.UserId &&
+                    t.AvailableDate == tutor.AvailableDate &&
+                    t.AvailableTime == tutor.AvailableTime);
+
+                if (timeSlotExists)
+                {
+                    // This error will show on the Index page (Tutor Availability).
+                    ModelState.AddModelError(string.Empty, "This time slot is not available.");
+                }
+            }
+
+            // 3) If any errors exist (date rule or time-slot rule),
+            // return to the form page and display error messages on Index.cshtml.
             if (!ModelState.IsValid)
             {
                 return View("Index", tutor);
             }
 
-            // ④ All validations passed — do not save yet. Redirect to the confirmation page.
+            // 4) All validations passed — do not save yet. Redirect to the confirmation page.
             return View("AvailableSchedule", tutor);
         }
 
-        // POST: /Tutor/Home/ConfirmAvailability
-        // Step 2: When clicking "Confirm & Save" on the AvailableSchedule page, execute this method and store the data into the database.
+       
+        // Step 2: When clicking "Confirm & Save" on the AvailableSchedule page,
+        // execute this method and store the data into the database.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ConfirmAvailability(TutorModel tutor)
@@ -115,7 +135,7 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
 
             try
             {
-                // 1. Get the currently logged-in user.
+                // 1) Get the currently logged-in user.
                 var currentUser = await _userManager.GetUserAsync(User);
                 if (currentUser == null)
                 {
@@ -123,7 +143,9 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
                 }
                 tutor.UserId = currentUser.Id;
 
-                // 2. SubjectId: Find or create a Subject.
+             
+
+                // 2) SubjectId: Find or create a Subject.
                 var subject = await _context.Subjects
                     .FirstOrDefaultAsync(s => s.SubjectName == tutor.Subject);
 
@@ -148,17 +170,19 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
 
                     subject = new Subject
                     {
-                        SubjectId = tutor.Subject!, // Use the subject name as ID
+                        // Use the subject name as ID for simplicity.
+                        SubjectId = tutor.Subject!,
                         SubjectName = tutor.Subject,
                         SubjectCode = tutor.Subject!.Substring(0, Math.Min(3, tutor.Subject.Length)).ToUpper(),
                         CourseId = defaultCourse.CourseId
                     };
+
                     _context.Subjects.Add(subject);
                     await _context.SaveChangesAsync();
                 }
                 tutor.SubjectId = subject.SubjectId;
 
-                // 3. Create a Schedule entry.
+                // 3) Create a Schedule entry.
                 var schedule = new Schedule
                 {
                     AvailabilityDay = DateOnly.FromDateTime(tutor.AvailableDate!.Value),
@@ -169,20 +193,20 @@ namespace StudentTutoringApplication.Areas.Tutor.Controllers
                 await _context.SaveChangesAsync();
                 tutor.ScheduleId = schedule.ScheduleId;
 
-                // 4. Save the Tutor record.
+                // 4) Save the Tutor record.
                 await _context.Tutors.AddAsync(tutor);
                 await _context.SaveChangesAsync();
-
-                // 5. Display the confirmation page again (this time data is already saved).
+                ViewBag.SuccessMessage = "Your availability has been saved successfully.";
+                // 5) Display the confirmation page again (this time data is already saved).
                 return View("AvailableSchedule", tutor);
 
-                // If preferred, you may redirect back to form upon success:
+                // If preferred, you may redirect back to the form upon success:
                 // return RedirectToAction("Index");
             }
             catch (Exception ex)
             {
                 // Display a user-friendly message and keep the entered data.
-                ModelState.AddModelError("", $"Error when saving: {ex.Message}");
+                ModelState.AddModelError(string.Empty, $"Error when saving: {ex.Message}");
                 return View("AvailableSchedule", tutor);
             }
         }

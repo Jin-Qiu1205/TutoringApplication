@@ -4,8 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 using StudentTutoringApplication.Data;
-
+using StudentTutoringApplication.Models;
 using AppointmentModel = StudentTutoringApplication.Models.Appointment;
+using TutorModel = StudentTutoringApplication.Models.Tutor;
 
 namespace StudentTutoringApplication.Areas.Student.Controllers
 {
@@ -22,11 +23,61 @@ namespace StudentTutoringApplication.Areas.Student.Controllers
             // _context.
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(
+
+        string tutorFirstName,
+        string tutorLastName,
+        string subject,
+        string submitType)
         {
-            // Only show the tutors based on the logged in users ID.
-            
-            return View(await _context.Tutor.ToListAsync());
+            // Always start with full Tutor table.
+            // Use TutorModel because "Tutor" is also the name of the Area namespace.
+            IQueryable<TutorModel> query = _context.Set<TutorModel>().AsQueryable();
+
+            switch (submitType)
+            {
+                case "SearchTutor":
+                    // Must enter BOTH first and last names
+                    if (string.IsNullOrWhiteSpace(tutorFirstName) ||
+                        string.IsNullOrWhiteSpace(tutorLastName))
+                    {
+                        ViewBag.ErrorMessage = "Please enter a tutor's first name and last name.";
+                    }
+                    else
+                    {
+                        string fn = tutorFirstName.Trim().ToLower();
+                        string ln = tutorLastName.Trim().ToLower();
+
+                        query = query.Where(t =>
+                            t.FirstName.ToLower() == fn &&
+                            t.LastName.ToLower() == ln);
+                    }
+                    break;
+
+                case "SearchSubject":
+                    if (string.IsNullOrWhiteSpace(subject))
+                    {
+                        ViewBag.ErrorMessage = "Please enter a subject name.";
+                    }
+                    else
+                    {
+                        string s = subject.Trim().ToLower();
+
+                        // SubjectId is a string.
+                        query = query.Where(t =>
+                            t.SubjectId.ToLower().Contains(s));
+                    }
+                    break;
+
+                case "AllTutors":
+                case "AllSubjects":
+                default:
+                    // No filtering → Return ALL tutors
+                    break;
+            }
+
+            var result = await query.ToListAsync();
+            return View(result);
         }
 
         private async Task PopulateViewBag(AppointmentModel model)
