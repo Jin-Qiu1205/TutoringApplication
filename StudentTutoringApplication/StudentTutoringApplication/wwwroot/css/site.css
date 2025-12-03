@@ -1,3 +1,10 @@
+:root {
+    --blue:#007599;
+    --green:#829600;
+    --l_blue:#A1D8E0;
+    --gold:#EAAB00;
+}
+
 html {
   font-size: 14px;
 }
@@ -12,6 +19,10 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+.navbar {
+    background-color: var(--l_blue);
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -19,4 +30,10 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+.logo {
+    margin-right: 1.5em;
+    margin-left: 1.05em;
+    height: 2rem;
 }
