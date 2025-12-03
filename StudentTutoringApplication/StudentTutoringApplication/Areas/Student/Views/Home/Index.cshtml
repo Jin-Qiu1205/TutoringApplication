@@ -1,0 +1,109 @@
+﻿@model IEnumerable<StudentTutoringApplication.Models.Tutor>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Student Dashboard</h2>
+<!-- <p>Good luck in your coding! -ryan</p>
+    -->
+<form asp-action="Index" method="get" class="mb-3">
+
+    <!-- First row: Tutor's Name -->
+    <div class="row mb-2 align-items-center">
+        <div class="col-md-2">
+            <label for="tutorFirstName" class="col-form-label fw-bold">Tutor's Name</label>
+        </div>
+
+        <div class="col-md-2">
+            <input type="text"
+                   id="tutorFirstName"
+                   name="tutorFirstName"
+                   class="form-control"
+                   placeholder="First name" />
+        </div>
+
+        <div class="col-md-2">
+            <input type="text"
+                   id="tutorLastName"
+                   name="tutorLastName"
+                   class="form-control"
+                   placeholder="Last name" />
+        </div>
+
+        <div class="col-md-6">
+            <button type="submit"
+                    name="submitType"
+                    value="SearchTutor"
+                    class="btn btn-nbcc me-2">
+                Search
+            </button>
+
+            <button type="submit"
+                    name="submitType"
+                    value="AllTutors"
+                    class="btn btn-nbcc">
+                Display all tutors
+            </button>
+        </div>
+    </div>
+
+    <!-- Second row: Subject -->
+    <div class="row mb-2 align-items-center">
+        <div class="col-md-2">
+            <label for="subject" class="col-form-label fw-bold">Subject</label>
+        </div>
+
+        <div class="col-md-4">
+            <input type="text"
+                   id="subject"
+                   name="subject"
+                   class="form-control"
+                   placeholder="Enter subject" />
+        </div>
+
+        <div class="col-md-6">
+            <button type="submit"
+                    name="submitType"
+                    value="SearchSubject"
+                    class="btn btn-nbcc me-2">
+                Search
+            </button>
+
+            <button type="submit"
+                    name="submitType"
+                    value="AllSubjects"
+                    class="btn btn-nbcc">
+                Display all subjects
+            </button>
+        </div>
+    </div>
+</form>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Subjects</th>
+            <th>Availability</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.FirstName @user.LastName</td>
+                <td>@user.SubjectId</td>
+                <td> <b>@(@user.AvailableDate?.ToString("yyyy-MM-dd") ?? "")</b> <br> <i>@user.AvailableTime</i> </td>
+                <td><a asp-action="BookAppointment" asp-route-id="@user.TutorId">Book</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
