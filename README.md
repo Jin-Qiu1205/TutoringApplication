@@ -1,3 +1,35 @@
+
+Student Tutoring Application
+A role-based tutoring app built with ASP.NET Core MVC and SQL Server.
+This was a group project created for an NBCC server-side web development course.
+
+What it does
+The app helps manage tutoring by letting:
+Students request tutoring
+Tutors set their availability
+Admins manage the overall process
+
+Tech used
+ASP.NET Core MVC (C#)
+Entity Framework Core
+SQL Server
+ASP.NET Identity
+Razor Views + Bootstrap
+
+What I worked on
+I was mainly responsible for the Tutor side of the application.
+I built the tutor availability flow from start to finish, including the form, validation rules, confirmation step, and saving data to the database. I also connected tutor availability to the logged-in user and handled duplicate time-slot checks.
+Running the project
+Open the solution in Visual Studio
+Update the SQL Server connection string
+Run the app using IIS Express
+
+Notes
+This project focuses on backend logic and workflow design rather than deployment.
+
+
+
+Original：
 # PROG1342A-TutoringApplication
 PROG1342A Server-Side Web: MVC Group Project
 
